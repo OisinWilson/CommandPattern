@@ -19,14 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CommandOutputs.cpp" />
-    <ClCompile Include="Game.cpp" />
-    <ClCompile Include="InputHandeler.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CommandOutputs.h" />
-    <ClInclude Include="Game.h" />
+    <ClInclude Include="CommandInterface.h" />
+    <ClInclude Include="CommandManager.h" />
+    <ClInclude Include="ConcreteCommands.h" />
     <ClInclude Include="InputHandeler.h" />
   </ItemGroup>
   <ItemGroup>
